@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title align="center"> Case Study </title>
+	<p align="center"><big><b> Case Study </b></big></p>
+	<hr width="30%">
+</head>
+<body>
+	<p> 
+	Ze werken hier met een cluster van 2 virtuele hosts en 1 instant BackUp server, 1 BackUp server en veel servers voor veel aparte dingen die vaak geupdate moeten worden of liefst niet al te vaak vervangen. 
+        De 2 hosts in het cluster zijn verbonden op een SAN. Dit is zodat als host 1 uitvalt dan kan de tweede dat nog overnemen van de 1ste. Maar als de SAN uitvalt/kapot is gaat dit niet, de 3de host is een replicatie BU die ervoor zorgt dat als er iets mis is met de twee andere hosts dat die dan de taak overneemt. 
+	Als heel het cluster uitvalt dan is er altijd nog de BackUp server die voor een korte periode de belangrijkste taken kan uitvoeren zodat de andere servers terug gemaakt kunnen worden. De BackUp server  is hard geïnstalleerd.
+	De BUserv staat door een agent in verbinding met het cluster zodat als er dingen geupdated worden in het cluster dat de BUserv die ook heeft.
+ 	Dan zijn er nog veel aparte virtuele machines die dan ook nog elks een specifieke taak vervullen. Sommige zijn voor test van software programma’s op te runnen en sommige zijn gewoon databanken.
+	Zo zijn er een aantal die dan systemen draaien die door de IT-man(Kris) zelf gemaakt zijn. De Tik server onder andere is gemaakt door de kris zelf. Deze zorgt voor een systeem dat zorgt voor het bijhouden van het in- en uitchecken van de werknemers. 
+	Maar ook voor wanneer ze verlof kunnen aanvragen, hoeveel overuren ze nog hebben, wanneer hun collega's verlof hebben, etc. Je hebt ook nog de Scanserv deze zorgt ervoor dat alle bestanden dat ingescand worden ineens terecht komen bij het programma ISAH. 
+	Dus in plaats van dat je eerst alles moet scannen en dat je dan handmatig die naar je mail moet versturen om die dan in ISAH te gaan zetten doet dit programma dat allemaal in 1 keer.
+	</p> 
+
+	<p> 
+	Het telefoonnetwerk fysiek apart maar verbonden met router & netwerk naar een telefoon hub. Deze telefoon hub staat dan in verbinding met verschillende hubs via Glasvezel. Het Telefoonnetwerk is een apart netwerk maar is wel gekoppeld aan applicatie in computer.
+	Er zijn veel draagbare telefoons in het bedrijf omdat het een zeer groot bedrijf is en als je iemand moet gaan zoeken dan kan dit wel is lang duren. Dat is de reden dat er telefoons zijn die intern bij bepaalde mensen zijn zodat die rap iets kunnen vragen.
+	Als iemand beld naar het nummer van Bogaerts greenhouse logistics en op het antwoordapparaat komt dan wordt er een cijfer gezegd een een groep waarbij deze nummer hoort. Als je bij een bepaalde groep moet zijn moet je dit cijfer intoetsen op je gsm. En dan wordt je doorverbonden met iemand van deze groep.
+	Bij de afhandeling van oproepen is het eerst verdeeld in 4 verschillende groepen. Eerst algemene vragen de mensen in deze groep worden tezamen gebeld. Dan groep Sales de mensen in deze groep worden op volgorde gebeld. Groep 3 is Service deze heeft ook nog een apart nummer om hierbij te geraken.
+	De mensen in Service worden ook in volgorde gebeld. In het geval dat niemand van Service opneemt dan wordt deze oproep verder gestuurd naar de gsm van de baas van het bedrijf. Als 4de groep is er dan nog Purchase, als deze wordt gebeld dan worden ook deze mensen in volgorde op gebeld.
+	Als niemand van groep 1, 2 of 4 opneemt wordt deze verder gestuurd naar Receptie Groep 1, in deze groep wordt ook iedereen tezamen gebeld. Maar als ook hier weer niemand opneemt dan gaat die weer verder naar Receptie Groep 2. Ook hier wordt iedereen tezamen gebeld.
+	Als hier niemand opneemt dan komt de oproep weer terecht bij Algemene vragen, maar tegen dan ben je het waarschijnlijk al beu en geef je het al op.
+	</p>
+
+	<p>
+	Bij het Netwerk is het dat die verschillende IP adressen heeft. 2 Hiervan werken met een omgekeerde NAT, dit wil zeggen dat een intern persoon gemakkelijk op de server geraakt. Maar dat er niet van de servers (jij zelf fysiek aan de server) zelf terug kan gewerkt worden. 
+	</p>
+
+	<p>
+	Er zijn 2 Wifi HUBs die dan nog is in verbinding staan met een stuk of 12 Hotspots. Een HUB staat ook in verbinding met een Cloud Key Unifi deze combineert het lokale beveiligingssysteem en remote access. En je kan aanmelden op de nodige site voor de instellingen aan te passen.
+	</p>
+	
+</body>
